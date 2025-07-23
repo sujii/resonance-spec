@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "name": "Resonance",
+  "version": "0.1.0",
+  "createdBy": "Susumu Fujii (vvvvise)",
+  "coreUnit": "Synaptix",
+  "embodiment": "Actors",
+  "field": "Contextual Mesh",
+  "purpose": "Semantic infrastructure for reducing meaning into structure and propagating resonance across individuals and systems.",
+  "visibility": "contextual",
+  "license": "./LICENSE",
+  "definition": "./definition.md",
+  "structure": {
+    "modularity": false,
+    "emergent": true,
+    "recursive": true
+  },
+  "status": "draft",
+  "tags": [
+    "semantic",
+    "infrastructure",
+    "generative",
+    "non-algorithmic",
+    "post-architectural"
+  ]
+}

@@ -1,0 +1,54 @@
+resonance:
+  identity:
+    name: Resonance
+    created_by: Susumu Fujii (vvvvise)
+    description: >
+      Infrastructure for emitting and amplifying meaning through structural resonance.
+    type: emergent-infrastructure
+    origin: Fukuoka
+    phase: unfolding
+
+  core_unit:
+    name: Synaptix
+    function: "Semantic reduction and structure generation engine"
+    dialect: SCDD
+    visibility: hidden
+    autonomy: true
+
+  architecture:
+    components:
+      - name: Actors
+        role: "Agent-based development framework"
+      - name: OOUI
+        role: "Conversational UI interface"
+      - name: Planet
+        role: "Context and structure expansion field"
+      - name: Fort
+        role: "Secure agents-ops system"
+      - name: Tribe
+        role: "Interpersonal and inter-agent dynamic system"
+
+  metaphysics:
+    mode: "fold-and-emit"
+    ontology:
+      individual: "Actor holding contextual meaning"
+      structure: "Emerges through resonance"
+      power: "Amplified meaning manifests structure"
+
+  emission:
+    signal_type: semantic
+    output_forms: [code, dialogue, gesture, social_structure]
+    propagation:
+      vector: vibration
+      range: trans-individual
+      observable: contextually
+
+  ethics:
+    stance: "Non-violent resonance and layered interaction"
+    risk: "Unreflected mimicry may cause structural collapse"
+    responsibility: "Originator and initial implementers must maintain reflection"
+
+  visibility:
+    public_manifestation: delayed
+    activation_trigger: "Contextual resonance"
+    recognizability: "Perceptible only by resonance"
