@@ -1,8 +1,8 @@
 {
-  "$schema": "https://json-schema.org/draft-07/schema",
+  "$schema": "https://sujii.github.io/resonance-spec/schema.json",
   "name": "Resonance",
   "version": "0.1.0",
-  "createdBy": "Susumu Fujii (vvvvise)",
+  "createdBy": "Susumu Fujii",
   "coreUnit": "Synaptix",
   "embodiment": "Actors",
   "field": "Contextual Mesh",

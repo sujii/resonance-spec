@@ -1,11 +1,10 @@
 resonance:
   identity:
     name: Resonance
-    created_by: Susumu Fujii (vvvvise)
+    created_by: Susumu Fujii
     description: >
       Infrastructure for emitting and amplifying meaning through structural resonance.
     type: emergent-infrastructure
-    origin: Fukuoka
     phase: unfolding
 
   core_unit:

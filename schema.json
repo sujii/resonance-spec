@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "https://sujii.github.io/resonance-spec/schema.json",
+  "title": "Resonance Manifest Schema",
+  "description": "JSON Schema for Resonance project manifest files",
+  "type": "object",
+  "required": ["name", "version", "createdBy", "coreUnit", "purpose"],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "format": "uri",
+      "description": "JSON Schema reference"
+    },
+    "name": {
+      "type": "string",
+      "const": "Resonance",
+      "description": "Project name - must be 'Resonance'"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
+      "description": "Semantic version string"
+    },
+    "createdBy": {
+      "type": "string",
+      "const": "Susumu Fujii",
+      "description": "Creator identification - must be 'Susumu Fujii'"
+    },
+    "coreUnit": {
+      "type": "string",
+      "const": "Synaptix",
+      "description": "Core processing unit - must be 'Synaptix'"
+    },
+    "embodiment": {
+      "type": "string",
+      "const": "Actors",
+      "description": "Embodiment system - must be 'Actors'"
+    },
+    "field": {
+      "type": "string",
+      "const": "Contextual Mesh",
+      "description": "Operational field - must be 'Contextual Mesh'"
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 10,
+      "description": "Project purpose description"
+    },
+    "visibility": {
+      "type": "string",
+      "enum": ["public", "private", "contextual", "restricted"],
+      "description": "Visibility scope of the project"
+    },
+    "license": {
+      "type": "string",
+      "pattern": "^\\./LICENSE$",
+      "description": "License file reference - must point to ./LICENSE"
+    },
+    "definition": {
+      "type": "string",
+      "pattern": "^\\./definition\\.md$",
+      "description": "Definition file reference - must point to ./definition.md"
+    },
+    "structure": {
+      "type": "object",
+      "required": ["modularity", "emergent", "recursive"],
+      "properties": {
+        "modularity": {
+          "type": "boolean",
+          "const": false,
+          "description": "Modularity characteristic - must be false for Resonance"
+        },
+        "emergent": {
+          "type": "boolean",
+          "const": true,
+          "description": "Emergent characteristic - must be true for Resonance"
+        },
+        "recursive": {
+          "type": "boolean",
+          "const": true,
+          "description": "Recursive characteristic - must be true for Resonance"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Structural characteristics of Resonance"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "stable", "experimental", "deprecated"],
+      "description": "Current development status"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "semantic",
+          "infrastructure",
+          "generative",
+          "non-algorithmic",
+          "post-architectural",
+          "emergent",
+          "recursive",
+          "contextual"
+        ]
+      },
+      "uniqueItems": true,
+      "minItems": 1,
+      "description": "Project classification tags"
+    }
+  },
+  "additionalProperties": false
+}
