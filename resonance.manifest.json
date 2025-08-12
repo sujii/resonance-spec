@@ -3,6 +3,7 @@
   "name": "Resonance",
   "version": "0.1.0",
   "createdBy": "Susumu Fujii",
+  "designTheory": "SCDD",
   "coreUnit": "Synaptix",
   "embodiment": "Actors",
   "field": "Contextual Mesh",

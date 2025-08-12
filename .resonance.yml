@@ -2,6 +2,7 @@ resonance:
   identity:
     name: Resonance
     created_by: Susumu Fujii
+    design_theory: SCDD
     description: >
       Infrastructure for emitting and amplifying meaning through structural resonance.
     type: emergent-infrastructure

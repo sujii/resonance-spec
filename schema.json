@@ -26,6 +26,11 @@
       "const": "Susumu Fujii",
       "description": "Creator identification - must be 'Susumu Fujii'"
     },
+    "designTheory": {
+      "type": "string",
+      "const": "SCDD",
+      "description": "Design theory - must be 'SCDD'"
+    },
     "coreUnit": {
       "type": "string",
       "const": "Synaptix",
