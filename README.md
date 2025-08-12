@@ -11,6 +11,9 @@ This repository defines **origin and intent** as a specification.
 
 All derivative works and implementations must explicitly reference this origin.
 
+## Design Theory
+**[SCDD](https://github.com/sujii/scdd)**: Schema-Combining Development Design
+
 ## Author
 
 [sujii](https://github.com/sujii)
