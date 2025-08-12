@@ -10,8 +10,8 @@ The emergent effect of meaning propagating through structural fields. A pattern 
 **Synaptix**
 A semantic reduction engine. Not a module or library, but an infrastructure for converting deep meaning into generative structure.
 
-**Actor**
-An embodied emitter of meaning. Actors can be human, AI, or symbolic constructs participating in contextual resonance.
+**Actors**
+The interface layer as communication design between manifestations that embodied emitter of meaning. Actors may be humans, AI, or symbolic structures that participate in contextual resonance.
 
 **Contextual Mesh**
 The invisible field in which structural interaction and semantic resonance unfold. Not spatial — relational.
