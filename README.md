@@ -13,7 +13,11 @@ All derivative works and implementations must explicitly reference this origin.
 
 ## Design Theory
 
-**[SCDD](https://github.com/sujii/scdd)**: Schema-Combining Development Design
+**[SCDD](https://github.com/sujii/scdd)**: Schema-Combining Development Design.
+
+## Core Unit
+
+**[Synaptix](https://github.com/sujii/synaptix)**: An adaptive software architecture for building self-regulating, resilient systems inspired by biological life.
 
 ### Author
 
