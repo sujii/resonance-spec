@@ -19,10 +19,10 @@ All derivative works and implementations must explicitly reference this origin.
 
 **[Synaptix](https://github.com/sujii/synaptix)**: An adaptive software architecture for building self-regulating, resilient systems inspired by biological life.
 
-### Author
+## Author
 
 [Susumu Fujii](https://github.com/sujii)
 
-### License
+## License
 
 Creative Commons BY-NC-SA 4.0
